@@ -3,6 +3,16 @@
 	"EngineAssociation": "{07A6A947-4E5F-AB74-C97B-F0A8A5A196E2}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "NewEraBall",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
