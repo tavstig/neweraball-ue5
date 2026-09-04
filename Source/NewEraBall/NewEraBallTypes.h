@@ -26,6 +26,7 @@ enum class ETeamSide : uint8
 UENUM(BlueprintType)
 enum class ETeamSizeFormat : uint8
 {
+	None		= 0 UMETA(DisplayName = "None"),
 	FiveVFive	= 5 UMETA(DisplayName = "5v5"),
 	SixVSix		= 6 UMETA(DisplayName = "6v6"),
 	SevenVSeven	= 7 UMETA(DisplayName = "7v7"),
